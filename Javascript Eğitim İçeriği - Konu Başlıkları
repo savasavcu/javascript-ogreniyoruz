@@ -1,0 +1,199 @@
+JS
+
+• Javascript'in Temelleri
+	Değişkenler
+	Veri Türleri
+	Veri Türü Dönüşümleri
+
+• Operatörler 
+	Atama Ope.
+	Aritmetiksel İşlemler ve String
+	Değer Arttırma ve Azaltma Ope.
+	Karşılaştırma ope.
+	Mantıksal ope.
+	Typeof ope.
+	Şarta Bağlı Komut Çalıştırma (Ternary ope.)
+	İşlem önceliği
+
+• Js ile sayfaya html içeriği yazmak
+	İki metin arası boşluklar bırakma ve sayfa akışını bir alt satıra indirme, taşıma
+	body tagleri içine js kodu yazma
+	head tagleri arasına js kodu yazma
+	Farklı bölegelerde js kodu yazma
+
+• Karakterlerin biçimlerini değiştirme (String Metodlar)
+	sub()
+	sup()
+	bold()
+	italics()
+	toLowerCase()
+	toUpperCase()
+	fontColor()
+	fontsize()
+	strike()
+	charAt()
+	charCodeAt()
+	concat()
+	replace()
+	match()
+	slice()
+	indexof()
+	substirng()
+		substirng(başlangıc,bitiş)
+		substirng(başlangıc)
+	substr()
+
+• Diziler (Array)
+	Dizi değişkenine değer girme
+	Dizi boyutu belirleme
+	Dizi değişkenlerine ulaşma ve değiştirme
+	Dizi değişkenleri ekleme çıkarma
+		index numarası ile dizi elemanı eklemek
+		push()
+		unshift()
+		splice()
+	concat()
+	pop()
+	shift()
+	delete ope.
+	Dizi elemanlarını sıralamak
+		sort()
+		reverse()
+	Dizi içinde eleman arama
+		indexof()
+		lastindexof()
+	Dizi değişkenlerinin içindeki nesnelerin metinsel veriye dönüşümü
+		toString()
+		join()
+	Çok boyutlu diziler
+
+• Koşul İfadeleri ve Döngüler 
+	if
+	if else
+	else if
+	switch
+	for
+	while
+	do while
+	break
+	continue
+
+• Fonksiyonlar 
+	Fonk tanımlama
+	Fonk geriye değer döndürme
+	Rekursive Fonk
+	Hazır Fonk
+		eval()
+		isFinite()
+		isNaN
+		escape()
+		unescape()
+		parseint()
+		parseFloat()
+		String()
+		Number()
+	Dedğişkenleri geçerli oldukları alanlar
+
+• Olaylar(Events) 
+	EventHandler
+		onload
+		onunload
+		onclick
+		ondbclick
+		onsubmit
+		onreset
+		onchange
+		onfocus
+		onblur
+		onerror
+		onabort
+		onselect
+		onresize
+		onkeyDown
+		onkeyPress
+		onkeyup
+		onmousemove
+		onmousedown
+		onmouseup
+		onmousepress
+		onmouseout
+		onmouseover
+	EventListener
+
+• Hata Denetimi 
+	try-catch
+	try-catch-finally
+	throw
+
+• Javascript Nesneleri 
+	Nesne Oluşturmak
+	Oluşturulan nesneye özellik eklemek
+	nesnelere fonksiyon eklemek
+	js hazır nesneler
+		String nesnesi
+			string nesnesinin metodları
+		array nesnesi
+		boolean nesnesi
+			boolean nesnesi özellikleri
+			boolean nesenes metodları
+		date nesnesi
+			date nesnesinin önemli metodları
+		number nesnesi
+			number nesnsi özellikleri
+			number nesnesi metodları
+		math nesnesi
+			math nesnesi metodları
+		diğer nesneler
+
+• Düzenli İfadeler (RegExp Nesnesi) 
+	regexp nesnesi
+		g (global)
+			i (ignorecase)
+		m (multiline)
+	nesne özellikleri
+		g
+		i
+		m
+		input
+		lasindex
+		lastmatch
+		leftContext
+		rightContext
+		source
+		constructor
+	nesne Mtodları
+		compile()
+		exec()
+		test()
+		search()
+		match()
+		replace()
+		split()
+	Düzenli ifade oluştururken kullanılan özel karakterler
+		https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+	Email ve Tarih Doğrulama işlemleri 
+
+• Tarayıcı Nesneleri 
+	windows nesneleri
+	navigator nesneleri
+	screen nesneleri
+	history nesneleri
+	Location nesneleri
+	Popup alert
+	Timing
+	document nesneleri içerik https://www.w3schools.com/jsref/dom_obj_document.asp
+	elemnt nesneleri içerik https://www.w3schools.com/jsref/dom_obj_all.asp
+	Attribute içerik https://www.w3schools.com/jsref/dom_obj_attributes.asp
+
+• Zamanlayıcılar 
+	içerik https://www.w3schools.com/jsref/jsref_obj_date.asp
+
+• Formlar 
+	HTML Objects içerik w3schools
+
+• Çerezler
+	oluşturma 
+	okuma
+	
+• JS JSON
+	

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>JsQa - NoteBook</title>
+	<meta charset="UTF-8">
+
+	<script>
+		var isim = "sezai"; // String
+		var yas = 25; //int
+		var sayi = 45;
+
+
+		if (sayi == 35 || yas === 25) {
+			document.write("<table width='200' border='2'>" +
+				"<td><font size='3' color='blue'>" +
+				isim + "</font></td>" +
+				"</table>");
+
+			document.write(yas + sayi);
+			console.log(isim);
+			console.log(typeof(yas));
+
+		} else {
+			document.write(yas + sayi)
+			console.log("uygun deil.");
+			console.log(typeof(isim));
+		}
+
+		var note = {
+			sahibinden: "js eğitimi salı günü"
+		};
+
+		var noteArray = ["js eğitimi salı günü"];
+
+		document.write(note.sahibinden + "<br>");
+		document.write(noteArray[0]);
+	</script>
+
+
+</head>
+
+</html>

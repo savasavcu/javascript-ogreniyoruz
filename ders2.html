@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JsQa - NoteBook</title>
+  <meta charset="UTF-8">
+
+  <script>
+    var ad = "savaş"
+    var soyad = "avcu"
+
+    var dizi1 = ["esra", "berivan", "ceren"]
+    var dizi2 = ["savaş", "tolga", "burak"]
+    var qagirls = dizi1.concat(dizi2)
+    var str1 = "halilsezaiburak"
+
+    //sub()
+    document.write(ad + soyad.sub() + "<br>")
+    //sup()
+    document.write(ad + soyad.sup() + "<br>")
+    //bol(), italics(), strike()
+    document.write("<br>" + ad.bold() + "<br>" + ad.italics() + "<br>" + ad.bold().strike().italics())
+    //toLowerCase(), toUpperCase()
+    document.write("<br>" + ad.toLowerCase() + "<br>" + soyad.toUpperCase())
+    //fontColor(), fontsize()
+    document.write("<br>" + ad.fontcolor("red").toUpperCase() + "<br>")
+    document.write("<br>" + soyad.fontcolor("047a18").fontsize("22px"))
+    document.write(ad.concat(soyad).fontsize("24px") + "<br>")
+    document.write(qagirls + "<br>")
+    document.write(str1.replace("sezai", "yeah!!") + "<br>")
+    document.write(str1.length)
+    document.write(str1.charAt(3) + "<br>")
+    document.write(str1.charCodeAt(3))
+    document.write(str1.indexOf("a", 10))
+    document.write(str1.substring(2, 10) + "<br>")
+    document.write(str1.substr(2, 3))
+  </script>
+
+
+</head>
+
+</html>

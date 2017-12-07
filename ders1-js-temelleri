@@ -1,0 +1,73 @@
+Javascript'in Temelleri, Değişkenler, Veri Türleri, Veri Türü Dönüşümleri ve Operatörler.
+
+var
+var yas = 1.7;
+var YAS=25;
+console.log(YAS);
+var yas,dogumTarihi,cinsiyet;
+yas=13;
+dogumTarihi;12/12/12;
+var yas=25,dogumTarihi=12/12/12;
+adi  doğru
+adı yanlış
+123 yanlış
+adi2 doğru
+_adi doğru
+_2adi doğru
+
+AD ile ad değişkeni farklı değişkenlerdir js büyük küçük harf ayrımı yapar.
+
+var sayi,sayi1;
+sayi=5;
+sayi1=10;
+veya
+var sayi=5,sayi1=10;
+array
+var araba = ["vw", "volvo", "bmw"];
+araba[1]
+
+Obje:
+
+var qagirls = {isim:"Sezai", soyad:"CAN", yas:50, boy:1.74};
+qagirls.isim;
+qagirls["isim"]
+
+-----
+yorum satırı yapma:
+//
+/*
+knakj
+sjdnflksd
+sjldnfls
+*/
+
+eski browserlarda çalıştırma:
+<!--
+-->
+----
+
+operatorler:
++
+-
+*
+/
+%
+++
+--
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%= x %= y	x = x % y
+&&
+||
+!
+==
+===
+!=
+!==
+>
+<
+>=
+<=
